@@ -1,4 +1,80 @@
-<head>
-  <!-- Google AdSense Code yahan paste karein -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
-</head>
+<div class="features-grid">
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fa-solid fa-calculator"></i></div>
+    <h3>Financial Calculators</h3>
+    <p>Instant calculations for Retail, MSME, and Agriculture loans with exact EMI breaks, interest schedules, and prepayment adjustments.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fa-solid fa-receipt"></i></div>
+    <h3>Term Deposit & RD Tools</h3>
+    <p>Accurate maturity value estimations for Recurring and Fixed Deposits based on quarterly compounding standards and TDS thresholds.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fa-brands fa-google"></i></div>
+    <h3>Secure Cloud Sync</h3>
+    <p>Built on robust Google Firebase authentication and real-time backend ensuring encrypted preferences and note synchronization.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+    <h3>Standard Operating Reference</h3>
+    <p>Quick lookup utility for standard verification procedures, circular checklists, and account opening requirements.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <h3>Promotion & Exam Prep</h3>
+    <p>Useful study aids and functional reference notes covering JAIIB, CAIIB, and internal promotion examinations.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+    <h3>Counter Rush Mode</h3>
+    <p>Lightweight, instant-loading interface structured to prevent system lag and speed up routine customer service.</p>
+  </div>
+</div>
+
+
+<div class="calc-container">
+  <div class="calc-grid">
+    <div class="form-group">
+      <label for="loanAmount">Loan Principal (₹)</label>
+      <input type="number" id="loanAmount" value="500000" step="10000">
+    </div>
+    <div class="form-group">
+      <label for="interestRate">Annual Interest Rate (%)</label>
+      <input type="number" id="interestRate" value="8.5" step="0.1">
+    </div>
+    <div class="form-group">
+      <label for="tenureMonths">Tenure (Months)</label>
+      <input type="number" id="tenureMonths" value="60" step="1">
+    </div>
+  </div>
+
+  <button class="cta-btn" style="width: 100%; border: none; cursor: pointer;" onclick="calculateEMI()">
+    Calculate Monthly EMI
+  </button>
+
+  <div class="calc-result">
+    <div>Estimated Monthly Installment (EMI)</div>
+    <span id="resultEMI">₹ 10,258</span>
+  </div>
+</div>
+
+
+<h3>Information We Collect</h3>
+<p>
+  When using our application or visiting this site, we may collect basic non-personally identifiable diagnostic data, anonymized analytics, and device configurations through Google Firebase services to improve overall system stability. If you contact our support team directly, we receive your email address and any inquiry details provided.
+</p>
+
+<h3>Google AdSense & Cookies</h3>
+<p>
+  Google is a third-party vendor on our site. It uses cookies, commonly known as DART cookies, to serve ads to our site visitors based upon their visit to this site and other websites on the internet. Visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a>.
+</p>
+
+<h3>Data Protection & Security</h3>
+<p>
+  We do not collect, store, or sell any personal banking account numbers, confidential customer credentials, or financial branch transactions. Calculations made on the platform are performed locally on your device or via temporary memory buffers.
+</p>
